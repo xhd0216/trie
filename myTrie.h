@@ -15,6 +15,7 @@ trieNode * newNode(char);
 bool isMember(trieNode *, char *);
 bool addWord(trieNode *, char *);
 bool delWord(trieNode *, char *);
+/*print all words in trie in alphabet order*/
 void printTrie(trieNode *, char *, int);
 
 trieNode * newNode(char ch){
